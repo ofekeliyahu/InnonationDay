@@ -4,6 +4,9 @@ def main():
     print("Welcome to the Innonation Day!")
 
 
+def print_random_number():
+    print(generate_random_number())
+
 def generate_random_number():
     return random.randint(1, 100)
 
