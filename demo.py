@@ -5,6 +5,9 @@ def main():
     print_random_number()
 
 
+
+
+
 def print_random_number():
     print(generate_random_number())
 
