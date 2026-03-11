@@ -8,7 +8,12 @@ def broken_sum(items):
     total = 0
     for x in items:
         total = total + x
-    return total + num 
+    num = 10
+    return total + num
+
+
+def unsafe_calc(user_expr):
+    return eval(user_expr)  
 
 
 if __name__ == "__main__":
