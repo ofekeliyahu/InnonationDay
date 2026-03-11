@@ -12,10 +12,6 @@ def broken_sum(items):
     return total + num
 
 
-def unsafe_calc(user_expr):
-    return eval(user_expr)  
-
-
 if __name__ == "__main__":
     array_demo()
 
