@@ -3,5 +3,15 @@ def array_demo():
     for i in array:
         print(i)
 
+
+def broken_sum(items):
+    total = 0
+    for x in items:
+        total = total + x
+    num = 10
+    return total + num
+
+
 if __name__ == "__main__":
     array_demo()
+
