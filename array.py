@@ -8,7 +8,7 @@ def broken_sum(items):
     total = 0
     for x in items:
         total = total + x
-    return total + missing_var 
+    return total + num 
 
 
 if __name__ == "__main__":
