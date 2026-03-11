@@ -2,6 +2,7 @@ import random
 
 def main():
     print("Welcome to the Innonation Day!")
+    print_random_number()
 
 
 def print_random_number():
